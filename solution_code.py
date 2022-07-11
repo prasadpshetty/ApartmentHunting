@@ -12,6 +12,7 @@ blocks=[{'gym': False, 'office': False, 'school': True, 'store': False},
         {'gym': True, 'office': True, 'school': True, 'store': False}, 
         {'gym': True, 'office': True, 'school': False, 'store': False}, 
         {'gym': False, 'office': False, 'school': False, 'store': True}]
+
 reqs=['gym', 'office', 'school', 'store']
 
 optimumblock,maxdistance=apartmentHunting(blocks,reqs)
